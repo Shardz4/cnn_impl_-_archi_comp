@@ -1,0 +1,50 @@
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+*/.ipynb_checkpoints/
+
+# Datasets and raw data files
+data/
+*.tar.gz
+*.tar
+*.zip
+*.gz
+
+# Model checkpoints and weights
+checkpoints/
+*.pt
+*.pth
+*.ckpt
+*.h5
+*.onnx
+*.safetensors
+
+# Experiment tracking (Weights & Biases, TensorBoard)
+wandb/
+runs/
+.netrc
+_netrc
+
+# Outputs, generated plots, and artifacts
+outputs/
+output/
+
+# Virtual environments
+.venv/
+venv/
+ENV/
+env/
+.conda/
+
+# Operating System files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE & Editor configurations
+.vscode/
+.idea/
